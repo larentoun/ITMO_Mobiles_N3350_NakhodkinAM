@@ -111,7 +111,7 @@ int main()
     if (ifManual == "N")
     {
         totalPrice = read_data(phoneNumber, callReceivePriceA, callReceivePriceB, callReceivePriceTimer, callPriceA, callPriceB, callPriceTimer, smsPriceA, smsPriceB, smsPriceCounter);
-        cout << "Total price = " << totalPrice << " rubles";
+        cout << "Total price = " << totalPrice << " rubles" << endl;
         return 0;
     }
 
